@@ -1,0 +1,61 @@
+Hackamajig Prop on the Arduino Mega 2560 Wiring Instructions
+
+LEDs
+  LED 1
+    Anode: Connect to one end of a 1kΩ resistor.
+    Resistor: Connect the other end to Arduino Mega 2560 digital pin 4.
+    Cathode: Connect to the common ground.
+
+  LED 2
+    Anode: Connect to one end of a 1kΩ resistor.
+    Resistor: Connect the other end to Arduino Mega 2560 digital pin 5.
+    Cathode: Connect to the common ground.
+
+  LED 3
+    Anode: Connect to one end of a 1kΩ resistor.
+    Resistor: Connect the other end to Arduino Mega 2560 digital pin 6.
+    Cathode: Connect to the common ground.
+
+  LED 4
+    Anode: Connect to one end of a 1kΩ resistor.
+    Resistor: Connect the other end to Arduino Mega 2560 digital pin 7.
+    Cathode: Connect to the common ground.
+
+  LED 5
+    Anode: Connect to one end of a 1kΩ resistor.
+    Resistor: Connect the other end to Arduino Mega 2560 digital pin 8.
+    Cathode: Connect to the common ground.
+
+Buttons
+  Button 1
+    Pin 1: Connect to Arduino Mega 2560 digital pin 22.
+    Pin 2: Connect to the common ground.
+  Button 2
+    Pin 1: Connect to Arduino Mega 2560 digital pin 23.
+    Pin 2: Connect to the common ground.
+  Button 3
+    Pin 1: Connect to Arduino Mega 2560 digital pin 24.
+    Pin 2: Connect to the common ground.
+  Button 4
+    Pin 1: Connect to Arduino Mega 2560 digital pin 25.
+    Pin 2: Connect to the common ground.
+
+SD Card Module
+  SD Card
+    CS: Connect to Arduino Mega 2560 digital pin 10 (PWM).
+    SCK: Connect to Arduino Mega 2560 digital pin 52.
+    MOSI: Connect to Arduino Mega 2560 digital pin 51.
+    MISO: Connect to Arduino Mega 2560 digital pin 50.
+    VCC: Connect to Arduino Mega 2560 5V pin.
+    GND: Connect to the common ground.
+
+Servo
+  Servo Motor
+    PWM: Connect to Arduino Mega 2560 digital pin 3 (PWM).
+    VCC: Connect to Arduino Mega 2560 5V pin.
+    GND: Connect to the common ground.
+
+Speaker
+  Speaker
+    +: Connect to Arduino Mega 2560 digital pin 9 (PWM).
+    -: Connect to the common ground.
