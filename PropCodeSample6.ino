@@ -171,7 +171,7 @@ void loop()
 //Custom Functions (States) That are called in the loop function.
 void button1Pressed()
 {
-  //The below "if" statement is a failsafe to prevent buttons from overriding or doubling onto each other. Although the "delay function" should prevent this from happening as well.
+  //The below "if" statement is a failsafe to prevent buttons from overriding or doubling onto each other. It will stop everything before starting a new button press action.
   if (anyButtonActive)
   {
     stopAllActions();
@@ -218,7 +218,7 @@ void button4Pressed()
   audio.play(button4Audio);
 }
 
-void led1Sequence()
+void led1Sequence()  //Edit each case state or add or subtract a case state to control what you want to happen at each interval of the led sequence.
 {
   switch (ledState)
   {
