@@ -2,27 +2,27 @@ Hackamajig Prop on the Arduino Mega 2560 Wiring Instructions
 
 LEDs
   LED 1
-    Anode: Connect to one end of a 1kΩ resistor.
+    Anode: Connect to one end of a 220Ω resistor.
     Resistor: Connect the other end to Arduino Mega 2560 digital pin 4.
     Cathode: Connect to the common ground.
 
   LED 2
-    Anode: Connect to one end of a 1kΩ resistor.
+    Anode: Connect to one end of a 220Ω resistor.
     Resistor: Connect the other end to Arduino Mega 2560 digital pin 5.
     Cathode: Connect to the common ground.
 
   LED 3
-    Anode: Connect to one end of a 1kΩ resistor.
+    Anode: Connect to one end of a 220Ω resistor.
     Resistor: Connect the other end to Arduino Mega 2560 digital pin 6.
     Cathode: Connect to the common ground.
 
   LED 4
-    Anode: Connect to one end of a 1kΩ resistor.
+    Anode: Connect to one end of a 220Ω resistor.
     Resistor: Connect the other end to Arduino Mega 2560 digital pin 7.
     Cathode: Connect to the common ground.
 
   LED 5
-    Anode: Connect to one end of a 1kΩ resistor.
+    Anode: Connect to one end of a 220Ω resistor.
     Resistor: Connect the other end to Arduino Mega 2560 digital pin 8.
     Cathode: Connect to the common ground.
 
